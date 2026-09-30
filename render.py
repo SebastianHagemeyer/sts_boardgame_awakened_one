@@ -140,6 +140,7 @@ def parse(text):
 # Lines are centred on y=737 with a pitch of 1.12 x font size.
 SIZE_LARGE, SIZE_NORMAL, SIZE_LONG = 66, 56, 52
 TEXT_CX, TEXT_CY, TEXT_W = 373, 737, 490
+TEXT_MIN_TOP = 604                  # first line never starts above this (clear of the type label)
 LARGE_MAX_W = 430
 NUM_GAP, ICON_GAP = 3, 2
 ICON_SCALE, ICON_RAISE = 1.16, -3  # icon art has soft edges: scale so the coloured part matches
@@ -271,6 +272,10 @@ def body_text(img, text):
     pitch = round(size * 1.12)
     block_h = (len(lines) - 1) * pitch + metrics(f)[1]
     first_top = TEXT_CY - block_h / 2
+    if first_top < TEXT_MIN_TOP and len(lines) > 1:
+        # very long text: tighten the leading so the first line clears the type label
+        pitch = (2 * (TEXT_CY - TEXT_MIN_TOP) - metrics(f)[1]) / (len(lines) - 1)
+        first_top = TEXT_MIN_TOP
     draw_runs(img, lines, f, ih, space, TEXT_CX, first_top, pitch)
 
 def outlined(img, xy, text, f, fill, stroke=3, anchor='mm'):

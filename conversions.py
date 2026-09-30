@@ -157,9 +157,10 @@ CARDS = {
 "Wave of Miasma": ("{b12}[block]\n[aoe] {m4} *Manaburn*.", "{b15:4}[block]\n[aoe] {m4} *Manaburn*.",
     ["Balance review 2: no longer Exhausts"]),
 # ---------------- Rare ----------------
-"4th Dimension": ("*Exhaust* up to 2 cards in your hand.\n*CAW! CAW!* for each card *Exhausted* this way.\n*Exhaust*.",
-                  "*Exhaust* up to 2 cards in your hand.\n*CAW! CAW!* for each card *Exhausted* this way.\n*Exhaust*.",
-    ["Designer change: Exhaust up to 2 cards, *CAW! CAW!* for each", "Upgrade: cost 1 → 0 (same as VG)"]),
+"4th Dimension": ("*Exhaust* up to 2 cards in your hand. If you *Exhaust* a [daze] this way, ALL enemies lose HP equal to their *Manaburn*.",
+                  "*Exhaust* up to 2 cards in your hand. If you *Exhaust* a [daze] this way, ALL enemies lose HP equal to their *Manaburn*.",
+    ["Designer change: Exhaust up to 2 cards; Exhausting a Dazed triggers Manaburn on ALL enemies; the card no longer Exhausts",
+     "Upgrade: cost 1 → 0 (same as VG)"]),
 "Aphotic Fount": ("*Conjure*.\nWhenever you play *Cryostasis*, it gives double the block.",
                   "*Conjure*.\nWhenever you play *Cryostasis*, it gives double the block.",
     ["Balance review: Plated Armor (not a board game mechanic) replaced by double block on Cryostasis",
