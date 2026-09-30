@@ -1,0 +1,253 @@
+<title>Awakened Balance Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kreon:wght@400;600;700&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<style>
+/* Layout: one column of review rows on the board game's dark wood table — cards on the left, the verdict on the right. */
+:root {
+  --table: #2c1d1e;        /* page ground, the rustywolf compendium brown, a step darker */
+  --felt: #382425;         /* row surface */
+  --rim: #5a3e3a;          /* hairlines and outlines */
+  --parchment: #f4f1dc;    /* body text */
+  --dust: #bfb39a;         /* secondary text */
+  --gold: #d8c69c;         /* accent: titles, focus */
+  --over: #e0664f;         /* too strong */
+  --under: #6fa8d6;        /* too weak */
+  --ok: #8fbf6a;           /* balanced */
+  --warn: #e5b94e;         /* needs work */
+  --display: "Kreon", Georgia, serif;
+  --body: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--table); color: var(--parchment); font-family: var(--body); font-size: 1.05rem; line-height: 1.5; margin: 0; }
+.wrap { max-width: 1100px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 64px; }
+header h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.9rem, 4vw, 2.6rem); color: var(--gold); margin: 0 0 6px; text-wrap: balance; letter-spacing: .01em; }
+header p { color: var(--dust); margin: 0; max-width: 62ch; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--table); border-bottom: 1px solid var(--rim); margin: 22px -16px 8px; padding: 12px 16px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.progress { font-family: var(--display); font-size: 1.05rem; font-variant-numeric: tabular-nums; min-width: 0; }
+.progress b { color: var(--gold); }
+.meter { flex: 1 1 160px; height: 8px; background: var(--felt); border: 1px solid var(--rim); border-radius: 99px; overflow: hidden; max-width: 260px; }
+.meter i { display: block; height: 100%; width: 0; background: var(--gold); transition: width .3s; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 .92rem var(--body); color: var(--parchment); background: transparent; border: 1px solid var(--rim); border-radius: 99px; padding: 4px 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--gold); color: var(--table); border-color: var(--gold); }
+.store { font-size: .88rem; color: var(--dust); width: 100%; }
+.store.local { color: var(--warn); }
+
+.review { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px 28px; padding: 26px 0; border-bottom: 1px solid var(--rim); }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-content: start; }
+.cards figure { margin: 0; }
+.cards img { display: block; width: 100%; height: auto; aspect-ratio: 744 / 1038; max-width: 100%; border-radius: 14px; background: #1b1213; }
+.cards figcaption { font-family: var(--display); font-size: .9rem; color: var(--dust); text-align: center; margin-top: 6px; letter-spacing: .04em; text-transform: uppercase; }
+.info { min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+.info h2 { font-family: var(--display); font-weight: 700; font-size: 1.7rem; margin: 0; color: var(--parchment); text-wrap: balance; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; color: var(--dust); font-size: .95rem; }
+.tag { font: 700 .78rem var(--body); letter-spacing: .08em; text-transform: uppercase; padding: 3px 9px; border-radius: 4px; border: 1px solid currentColor; }
+.tag.over { color: var(--over); }
+.tag.under { color: var(--under); }
+.why { margin: 0; max-width: 60ch; }
+.why .lbl { display: block; font: 700 .78rem var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.choice { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { font: 600 1rem var(--display); padding: 10px 18px; border-radius: 8px; border: 2px solid var(--rim); background: var(--felt); color: var(--parchment); cursor: pointer; min-width: 9rem; }
+.btn:hover { border-color: var(--gold); }
+.btn.balanced[aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: #1c2513; }
+.btn.needs[aria-pressed="true"] { background: var(--warn); border-color: var(--warn); color: #2a1f08; }
+.note label { display: block; font: 700 .78rem var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.note textarea { width: 100%; min-height: 7.5rem; resize: vertical; font: 1rem/1.45 var(--body); color: var(--parchment); background: var(--felt); border: 1px solid var(--rim); border-radius: 8px; padding: 10px 12px; }
+.note textarea::placeholder { color: #9c8f7a; }
+.status { font-size: .88rem; color: var(--dust); min-height: 1.3em; }
+.status.err { color: var(--over); }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.empty { color: var(--dust); padding: 40px 0; text-align: center; }
+footer { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; color: var(--dust); }
+footer .btn { min-width: 0; }
+#copybox { width: 100%; min-height: 8rem; font: .9rem/1.4 ui-monospace, Consolas, monospace; background: var(--felt); color: var(--parchment); border: 1px solid var(--rim); border-radius: 8px; padding: 10px; }
+@media (max-width: 760px) {
+  .review { grid-template-columns: minmax(0, 1fr); }
+  .btn { flex: 1 1 8rem; min-width: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .meter i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Awakened Balance Review</h1>
+    <p>Each card below looked too strong or too weak for the board game. Look at the base and upgraded versions, then mark it <strong>Balanced</strong> or <strong>Needs work</strong>. If it needs work, write the change you want and Clide will make it.</p>
+  </header>
+
+  <div class="bar" role="region" aria-label="Progress and filters">
+    <div class="progress"><b id="done">0</b> of <span id="total">0</span> reviewed</div>
+    <div class="meter" aria-hidden="true"><i id="fill"></i></div>
+    <div class="filters" role="group" aria-label="Show">
+      <button class="chip" data-f="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="over" aria-pressed="false">Too strong</button>
+      <button class="chip" data-f="under" aria-pressed="false">Too weak</button>
+      <button class="chip" data-f="todo" aria-pressed="false">Not reviewed</button>
+      <button class="chip" data-f="needs_work" aria-pressed="false">Needs work</button>
+    </div>
+    <div class="store" id="store">Connecting to saved answers…</div>
+  </div>
+
+  <main id="list"></main>
+
+  <footer>
+    <button class="btn" id="copy" type="button">Copy all feedback</button>
+    <span id="copyStatus"></span>
+    <textarea id="copybox" hidden readonly aria-label="All feedback as text"></textarea>
+  </footer>
+</div>
+
+<script>
+const CARDS = /*CARDS*/[];
+const state = {};            // slug -> {verdict, note}
+let db = null, filter = 'all';
+const writes = {};           // slug -> promise chain (one write at a time per doc)
+const timers = {};
+
+function load() {
+  try { return JSON.parse(localStorage.getItem('awakened-review') || '{}'); } catch { return {}; }
+}
+function saveLocal() {
+  try { localStorage.setItem('awakened-review', JSON.stringify(state)); } catch {}
+}
+Object.assign(state, load());
+
+const list = document.getElementById('list');
+document.getElementById('total').textContent = CARDS.length;
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') e.className = v; else if (k === 'text') e.textContent = v; else e.setAttribute(k, v);
+  }
+  kids.forEach(k => k && e.append(k));
+  return e;
+}
+
+function build() {
+  for (const c of CARDS) {
+    const row = el('section', { class: 'review', id: c.slug, 'data-verdict': c.verdict });
+    const cards = el('div', { class: 'cards' },
+      el('figure', {}, el('img', { src: 'img/' + c.slug + '.webp', alt: c.name + ', base version', loading: 'lazy', width: '360', height: '502' }), el('figcaption', { text: 'Base' })),
+      el('figure', {}, el('img', { src: 'img/' + c.slug + '-up.webp', alt: c.name + ', upgraded version', loading: 'lazy', width: '360', height: '502' }), el('figcaption', { text: 'Upgraded' })));
+    const tag = el('span', { class: 'tag ' + c.verdict, text: c.verdict === 'over' ? 'Too strong' : 'Too weak' });
+    const meta = el('div', { class: 'meta' }, tag, el('span', { text: c.rarity + ' ' + c.type }));
+    const why = el('p', { class: 'why' }, el('span', { class: 'lbl', text: 'Why it stood out' }), document.createTextNode(c.why));
+    const bal = el('button', { class: 'btn balanced', type: 'button', 'aria-pressed': 'false', text: 'Balanced' });
+    const needs = el('button', { class: 'btn needs', type: 'button', 'aria-pressed': 'false', text: 'Needs work' });
+    const choice = el('div', { class: 'choice', role: 'group', 'aria-label': 'Verdict for ' + c.name }, bal, needs);
+    const ta = el('textarea', { id: 'note-' + c.slug, placeholder: 'e.g. Cost 2 instead of 1, or change the upgrade to…' });
+    const note = el('div', { class: 'note' }, el('label', { for: 'note-' + c.slug, text: 'What should change?' }), ta);
+    note.hidden = true;
+    const status = el('div', { class: 'status', 'aria-live': 'polite' });
+    row.append(cards, el('div', { class: 'info' }, el('h2', { text: c.name }), meta, why, choice, note, status));
+    list.append(row);
+
+    bal.addEventListener('click', () => setVerdict(c.slug, 'balanced'));
+    needs.addEventListener('click', () => { setVerdict(c.slug, 'needs_work'); requestAnimationFrame(() => ta.focus()); });
+    ta.addEventListener('input', () => {
+      state[c.slug] = { ...(state[c.slug] || {}), verdict: 'needs_work', note: ta.value };
+      saveLocal();
+      status.className = 'status'; status.textContent = 'Typing…';
+      clearTimeout(timers[c.slug]);
+      timers[c.slug] = setTimeout(() => persist(c.slug), 900);
+    });
+    ta.addEventListener('blur', () => { if (timers[c.slug]) { clearTimeout(timers[c.slug]); timers[c.slug] = null; persist(c.slug); } });
+    c.dom = { row, bal, needs, note, ta, status };
+  }
+}
+
+function setVerdict(slug, verdict) {
+  state[slug] = { ...(state[slug] || {}), verdict, note: (state[slug] && state[slug].note) || '' };
+  saveLocal();
+  paint();
+  persist(slug);
+}
+
+function persist(slug) {
+  timers[slug] = null;
+  const c = CARDS.find(x => x.slug === slug);
+  const s = state[slug];
+  if (!s) return;
+  if (!db) { c.dom.status.className = 'status'; c.dom.status.textContent = 'Saved in this browser'; return; }
+  const body = { verdict: s.verdict, note: s.note || '', card: c.name, updatedAt: new Date().toISOString() };
+  writes[slug] = (writes[slug] || Promise.resolve()).then(() => db.doc('reviews/' + slug).set(body)).then(() => {
+    c.dom.status.className = 'status'; c.dom.status.textContent = 'Saved';
+  }).catch(e => {
+    c.dom.status.className = 'status err';
+    c.dom.status.textContent = e && e.code === 'invalid_argument'
+      ? 'You can view this page but not save answers. Use "Copy all feedback" instead.'
+      : 'Couldn’t save just now. Your answer is kept in this browser; try again in a moment.';
+  });
+}
+
+function paint() {
+  let done = 0, shown = 0;
+  for (const c of CARDS) {
+    const s = state[c.slug] || {};
+    if (s.verdict) done++;
+    c.dom.bal.setAttribute('aria-pressed', s.verdict === 'balanced');
+    c.dom.needs.setAttribute('aria-pressed', s.verdict === 'needs_work');
+    c.dom.note.hidden = s.verdict !== 'needs_work';
+    if (document.activeElement !== c.dom.ta && c.dom.ta.value !== (s.note || '')) c.dom.ta.value = s.note || '';
+    const vis = filter === 'all' || filter === c.verdict || (filter === 'todo' && !s.verdict) || (filter === 'needs_work' && s.verdict === 'needs_work');
+    c.dom.row.hidden = !vis;
+    if (vis) shown++;
+  }
+  document.getElementById('done').textContent = done;
+  document.getElementById('fill').style.width = (CARDS.length ? done / CARDS.length * 100 : 0) + '%';
+  let empty = document.getElementById('empty');
+  if (!shown) {
+    if (!empty) { empty = el('p', { class: 'empty', id: 'empty', text: 'No cards match this filter.' }); list.append(empty); }
+  } else if (empty) empty.remove();
+}
+
+document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+  filter = b.dataset.f;
+  document.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', x === b));
+  paint();
+}));
+
+document.getElementById('copy').addEventListener('click', () => {
+  const lines = CARDS.map(c => {
+    const s = state[c.slug] || {};
+    const v = s.verdict === 'balanced' ? 'Balanced' : s.verdict === 'needs_work' ? 'Needs work' : 'Not reviewed';
+    return c.name + ': ' + v + (s.verdict === 'needs_work' && s.note ? ' - ' + s.note.replace(/\s+/g, ' ').trim() : '');
+  }).join('\n');
+  const box = document.getElementById('copybox');
+  const st = document.getElementById('copyStatus');
+  box.value = lines;
+  navigator.clipboard.writeText(lines).then(() => { st.textContent = 'Copied. Paste it to Clide.'; box.hidden = true; })
+    .catch(() => { box.hidden = false; box.focus(); box.select(); st.textContent = 'Select the text below and copy it.'; });
+});
+
+build();
+paint();
+
+(async () => {
+  const store = document.getElementById('store');
+  try { db = window.claude && window.claude.use ? await window.claude.use('db') : null; } catch { db = null; }
+  if (!db) {
+    store.className = 'store local';
+    store.textContent = 'Answers are saved in this browser only. When you’re done, use "Copy all feedback" and paste it to Clide.';
+    return;
+  }
+  store.className = 'store';
+  store.textContent = 'Answers save automatically and Clide can read them.';
+  db.collection('reviews').onSnapshot(snap => {
+    for (const d of snap.docs) {
+      const v = d.data();
+      if (!v || !CARDS.some(c => c.slug === d.id)) continue;
+      const mine = state[d.id];
+      if (timers[d.id]) continue;               // keep what's being typed
+      state[d.id] = { verdict: v.verdict, note: v.note || '' };
+      if (!mine || mine.verdict !== v.verdict || (mine.note || '') !== (v.note || '')) saveLocal();
+    }
+    paint();
+  }, () => {
+    store.className = 'store local';
+    store.textContent = 'Lost the connection to saved answers. New answers stay in this browser; use "Copy all feedback".';
+  });
+})();
+</script>

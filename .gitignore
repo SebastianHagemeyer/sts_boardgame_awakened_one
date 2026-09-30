@@ -1,0 +1,10 @@
+# generated or downloaded - rebuild with build/setup_assets.py and render.py
+cards/
+build/layers/
+build/vg/
+build/fonts/
+build/awakened_wiki.json
+build/review/site/
+build/review/cards*.json
+__pycache__/
+*.pyc
