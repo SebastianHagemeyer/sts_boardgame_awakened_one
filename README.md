@@ -19,6 +19,8 @@ below rebuild them.
 | `build/setup_assets.py` | Extracts the template layers, downloads the video game card images and the Kreon font |
 | `build/import_wiki.py` | Re-imports the card list from the Downfall wiki (how `awakened.json` was first made) |
 | `build/review/template.html`, `build/review/make_round.py` | The balance review page used for each review round |
+| `tts ready cards/` | Finished decks for Tabletop Simulator: card sheets (base on the front, upgrade on the back) and ready-to-load deck files, including a starter deck. See its README |
+| `build/make_tts.py` | Builds the Tabletop Simulator sheets and deck files from `cards/` |
 | `reports/STS board game card balance.md` | The balance research: board game rules numbers, enemy numbers, card price list and checklist |
 
 ## Rebuilding the cards
@@ -28,7 +30,11 @@ pip install pillow numpy scipy psd-tools
 python build/setup_assets.py --psd "path/to/Photoshop card templates/Template_Deck_cards.psd"
 python render.py                 # all cards
 python render.py Defend "CAW!"   # or just some
+python build/make_tts.py         # Tabletop Simulator sheets + deck files
 ```
+
+`render.py` also writes `cards/starter/`: Strike, Defend, Hymn and Talon Rake on the light
+grey background real starter cards use (their upgrades keep the normal glow).
 
 The template is the "StS Board game card templates for Photoshop – color optimized
 for professional printing" release (Template_Deck_cards.psd).

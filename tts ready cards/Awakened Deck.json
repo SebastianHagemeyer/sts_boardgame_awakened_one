@@ -1,0 +1,3010 @@
+{
+  "SaveName": "",
+  "GameMode": "",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "",
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "ObjectStates": [
+    {
+      "GUID": "0ce2c6",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Awakened Deck (all 89 cards)",
+      "Description": "Fan conversion of Downfall's Awakened for Slay the Spire: The Board Game. Base cards on the front, upgrades on the back.",
+      "ColorDiffuse": {
+        "r": 0.713,
+        "g": 0.713,
+        "b": 0.713
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+          "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        },
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+          "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+          "NumWidth": 7,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "ContainedObjects": [
+        {
+          "GUID": "5d9162",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Defend",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "424562",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Hymn",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "e3ad83",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Strike",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 102,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "41cd8b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Talon Rake",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 103,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "fc29e8",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Brainshock",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 104,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a70fb1",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Clarion Call",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 105,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "1be318",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Clutch",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 106,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "44d33e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Dejection",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 107,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "8d411b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Envision",
+          "Description": "Common Skill - upgraded version on the back",
+          "CardID": 108,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "d45a93",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Feather Flare",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 109,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "dc4507",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Gather",
+          "Description": "Common Skill - upgraded version on the back",
+          "CardID": 110,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "1ecc6c",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Gloomguard",
+          "Description": "Common Skill - upgraded version on the back",
+          "CardID": 111,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b59049",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Initiation",
+          "Description": "Common Skill - upgraded version on the back",
+          "CardID": 112,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "25f177",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Peck",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 113,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "0fc38a",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Planeswalk",
+          "Description": "Common Skill - upgraded version on the back",
+          "CardID": 114,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "c7a98f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Pluck",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 115,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "adf7ac",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Profane Strike",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 116,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "c3e30f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Psalm",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 117,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "8bafe1",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Recitation",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 118,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "d85c07",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Scour",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 119,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "17a13e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spew",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 120,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a4fbf5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Unleash",
+          "Description": "Common Attack - upgraded version on the back",
+          "CardID": 121,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "6833e5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Altar",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 122,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "8cf06b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blood Rite",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 123,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "98c8aa",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Byrd's Eye",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 124,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "ecab07",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Carrionmaker",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 125,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a0403c",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "CAW!",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 126,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b7469b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Chosen Verse",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 127,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "08c23f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Dark Echo",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 128,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "52ac49",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Darkness Falls",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 129,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "d44ea0",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Deathcoil",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 130,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "92097e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ensorcelate",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 131,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "875a33",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Eventide",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 132,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "542fd5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Extension",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 133,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a5cfa6",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Feather Veil",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 134,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "ec1df7",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Feather Whirl",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 135,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "93914a",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Inscribe",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 136,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "515672",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Knife's Edge",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 137,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "849398",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Midden Heap",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 138,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "27434d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mire Pit",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 139,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "5f70aa",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Moonlit Vision",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 140,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "0793ef",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mystic Order",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 141,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "180f34",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Primacy",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 142,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "cccc72",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Raven Strike",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 143,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "1619b5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rising Chorus",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 144,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a16ce5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Singularity Shield",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 145,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "87e5f1",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Siphon",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 146,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "bc5380",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Song of Sorrow",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 147,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "79c315",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Soul Strike",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 148,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "885729",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spellshield",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 149,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "d795b1",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Split Wide",
+          "Description": "Uncommon Attack - upgraded version on the back",
+          "CardID": 150,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "8f531b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Storm Ruler",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 151,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "3581cd",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Take Flight",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 152,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "103293",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Thaumaturgy",
+          "Description": "Uncommon Power - upgraded version on the back",
+          "CardID": 153,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "5c9180",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Victuals",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 154,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "ef13bf",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Wave of Miasma",
+          "Description": "Uncommon Skill - upgraded version on the back",
+          "CardID": 155,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "82383f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "4th Dimension",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 156,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "2e595c",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Aphotic Fount",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 157,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "e4bcb9",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Arcane Nesting",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 158,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "64bb22",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Archmagus",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 159,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "1d6c9f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Awakened Form",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 160,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "d29dc1",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Bloodthirst",
+          "Description": "Rare Attack - upgraded version on the back",
+          "CardID": 161,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "5408ed",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Demon Glyph",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 162,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "79180a",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Desperate Prayer",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 163,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "095e0f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Eclipse Embrace",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 164,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "9aafbc",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Intensify",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 165,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "f8babb",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Manastorm",
+          "Description": "Rare Attack - upgraded version on the back",
+          "CardID": 166,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "82d8bb",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Murder",
+          "Description": "Rare Attack - upgraded version on the back",
+          "CardID": 167,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "662ae5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Nihil",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 168,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_1.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b9baa5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Procession",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 200,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "9874fa",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rebirth",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 201,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "3b6a26",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Skyward",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 202,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "166723",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Sludge Bomb",
+          "Description": "Rare Skill - upgraded version on the back",
+          "CardID": 203,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "c3884d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spellbinder",
+          "Description": "Rare Power - upgraded version on the back",
+          "CardID": 204,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "29d4b2",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "The Tower",
+          "Description": "Rare Attack - upgraded version on the back",
+          "CardID": 205,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "35837d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Crusher",
+          "Description": "Special Attack - upgraded version on the back",
+          "CardID": 206,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b7c32d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Daggerstorm",
+          "Description": "Special Power - upgraded version on the back",
+          "CardID": 207,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "37981c",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mana Shield",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 208,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "acd18b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mantis",
+          "Description": "Special Attack - upgraded version on the back",
+          "CardID": 209,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "faac79",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Minniegun",
+          "Description": "Special Attack - upgraded version on the back",
+          "CardID": 210,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b18995",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Scheme",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 211,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "98f108",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Sign in Blood",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 212,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "e49b0f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spreading Spores",
+          "Description": "Special Power - upgraded version on the back",
+          "CardID": 213,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "0847b4",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "The Encyclopedia",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 214,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b4e017",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Burning Study",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 215,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "725145",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cryostasis",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 216,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "5e5fbd",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Darkleech",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 217,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "007348",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "ESP",
+          "Description": "Special Skill - upgraded version on the back",
+          "CardID": 218,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "bbecbe",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Thunderbolt",
+          "Description": "Special Attack - upgraded version on the back",
+          "CardID": 219,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Faces_2.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Backs_2.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        }
+      ]
+    }
+  ],
+  "TabStates": {},
+  "VersionNumber": ""
+}

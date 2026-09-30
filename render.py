@@ -315,10 +315,23 @@ def cost_of(card, upgraded):
         return UPGRADED_COST[card['name']]
     return BASE_COST_FIX.get(card['name'], card['cost'])
 
-def render(card, upgraded):
+# Real starter cards (Strike, Defend, Bash...) sit on light grey instead of black
+# (about 101,99,97 on the scans vs 0,0,0); shifted by the template's print tuning (0 -> 17).
+STARTER_BG = (106, 104, 101)
+
+def starter_frame(fr):
+    import numpy as np
+    a = np.asarray(fr).copy()
+    rgb = a[..., :3].astype(int)
+    m = (np.abs(rgb - 17).max(-1) <= 4) & (a[..., 3] > 0)     # the template's flat dark background
+    a[m, :3] = STARTER_BG
+    return Image.fromarray(a, 'RGBA')
+
+def render(card, upgraded, starter=False):
     img = Image.new('RGBA', (W, H), (0, 0, 0, 0))
     img.alpha_composite(art(card), BG_ART[:2])
-    img.alpha_composite(frame(card, upgraded))
+    fr = frame(card, upgraded)
+    img.alpha_composite(starter_frame(fr) if starter and not upgraded else fr)
     # cost (reference: digit fill 81-102 x 92-139 on Defend)
     cost = cost_of(card, upgraded)
     if cost != 'Unplayable':
@@ -353,6 +366,9 @@ def main(only=None):
         render(c, False).save(os.path.join(OUT, slug(c) + '.png'))
         if CARDS[c['name']][1] is not None:
             render(c, True).save(os.path.join(OUT, 'upgraded', slug(c) + '.png'))
+        if c['rarity'] == 'Basic':          # starter versions: grey background (upgrades keep the glow)
+            os.makedirs(os.path.join(OUT, 'starter'), exist_ok=True)
+            render(c, False, starter=True).save(os.path.join(OUT, 'starter', slug(c) + '.png'))
     print('done')
 
 if __name__ == '__main__':

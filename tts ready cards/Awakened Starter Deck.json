@@ -1,0 +1,394 @@
+{
+  "SaveName": "",
+  "GameMode": "",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "",
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "ObjectStates": [
+    {
+      "GUID": "eac40e",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Awakened Starter Deck (4 Strike, 4 Defend, Hymn, Talon Rake)",
+      "Description": "Fan conversion of Downfall's Awakened for Slay the Spire: The Board Game. Base cards on the front, upgrades on the back.",
+      "ColorDiffuse": {
+        "r": 0.713,
+        "g": 0.713,
+        "b": 0.713
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        100,
+        100,
+        100,
+        101,
+        101,
+        101,
+        101,
+        102,
+        103
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+          "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+          "NumWidth": 3,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "ContainedObjects": [
+        {
+          "GUID": "a3a71e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Strike",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "d20e12",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Strike",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "8a8438",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Strike",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "b33592",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Strike",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a611a8",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Defend",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "bccd36",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Defend",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "31fb6f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Defend",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "98e46d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Defend",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "a3eb4f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Hymn",
+          "Description": "Basic Skill - upgraded version on the back",
+          "CardID": 102,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        },
+        {
+          "GUID": "68e4f9",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 1.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Talon Rake",
+          "Description": "Basic Attack - upgraded version on the back",
+          "CardID": 103,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Faces_1.jpg",
+              "BackURL": "https://raw.githubusercontent.com/SebastianHagemeyer/sts_boardgame_awakened_one/main/tts%20ready%20cards/Awakened_Starter_Backs_1.jpg",
+              "NumWidth": 3,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false,
+          "HideWhenFaceDown": true,
+          "Hands": true
+        }
+      ]
+    }
+  ],
+  "TabStates": {},
+  "VersionNumber": ""
+}
