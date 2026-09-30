@@ -244,7 +244,7 @@ CARDS = {
 }
 
 # Wiki data fixes, and upgraded costs (VG cost changes plus board-game-style cost upgrades)
-BASE_COST_FIX = {"Aphotic Fount": "2", "Demon Glyph": "2", "Spellbinder": "2", "Crusher": "3", "Scour": "0", "Skyward": "5"}
+BASE_COST_FIX = {"Aphotic Fount": "2", "Demon Glyph": "2", "Spellbinder": "2", "Crusher": "3", "Scour": "0", "Skyward": "5", "Sludge Bomb": "1"}
 UPGRADED_COST = {"Dark Echo": "1", "Moonlit Vision": "1", "4th Dimension": "0", "Aphotic Fount": "1",
                  "Archmagus": "2", "Spellbinder": "1",
                  "Darkness Falls": "0", "Storm Ruler": "0", "Demon Glyph": "1", "Scheme": "0"}
