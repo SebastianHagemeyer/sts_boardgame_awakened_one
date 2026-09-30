@@ -11,7 +11,7 @@ the front** and its **upgraded version on the back**, so you upgrade a card by f
 | `Awakened_Faces_2.jpg`, `Awakened_Backs_2.jpg` | Sheet 2: the other 20 cards (7 × 3) |
 | `Awakened_Starter_Faces_1.jpg`, `Awakened_Starter_Backs_1.jpg` | Starter sheet (3 × 2) |
 | `Awakened Faces 1 (10x7, 69 cards).png`, `Awakened Backs 1 (10x7, 69 cards).png` | Lossless PNG copies of sheet 1, for importing by hand |
-| `Awakened Faces 2 (7x3, 20 cards).png`, `Awakened Backs 2 (7x3, 20 cards).png` | Lossless PNG copies of sheet 2 |
+| `Awakened Faces 2 (5x5, 24 cards).png`, `Awakened Backs 2 (5x5, 24 cards).png` | The other 20 cards plus the 4 grey-background starter versions (Strike, Defend, Hymn, Talon Rake), as PNG |
 
 The deck files load their images straight from this GitHub repository, so no upload is
 needed.
@@ -31,11 +31,12 @@ Deck**, then for each of the two sheets:
    your Steam Cloud, or choose "Local file").
 2. Tick **Unique Backs**, then **Back:** pick the matching `Awakened Backs N (...).png`.
 3. **Width / Height / Number** from the file name: sheet 1 is **10 / 7 / 69**, sheet 2 is
-   **7 / 3 / 20**.
+   **5 / 5 / 24**.
 4. Leave **Back is Hidden** off and **Sideways** off, then **Import**.
 
-Do it once per sheet, then drop the two decks on top of each other to merge them into one
-89-card deck.
+Do it once per sheet, then drop the two decks on top of each other to merge them. The
+merged deck has all 89 cards plus the 4 starter versions (93 cards); copy the starter
+Strike and Defend in TTS (Ctrl+C / Ctrl+V) to make the 4 + 4 of the starting deck.
 
 ## Or build it by hand from the web links
 

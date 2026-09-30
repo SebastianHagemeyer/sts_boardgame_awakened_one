@@ -6,7 +6,8 @@ Writes to "tts ready cards/":
   Awakened_Faces_1.jpg / Awakened_Backs_1.jpg   10 x 7 grid, 69 cards
   Awakened_Faces_2.jpg / Awakened_Backs_2.jpg   the remaining cards
   Awakened Deck.json / .png                      all 89 cards, TTS saved object + thumbnail
-  Awakened Faces/Backs N (grid, count).png       lossless PNG copies of the two main sheets, for importing by hand
+  Awakened Faces/Backs N (grid, count).png       lossless PNG sheets for importing by hand: all 89 cards,
+                                                 then the 4 starter versions on the last sheet
   Awakened_Starter_Faces_1.jpg / _Backs_1.jpg    the grey-background starter versions
   Awakened Starter Deck.json / .png              4 Strike, 4 Defend, Hymn, Talon Rake
 
@@ -95,7 +96,7 @@ def card_obj(c, cid, n, sheet):
             'SidewaysCard': False, 'HideWhenFaceDown': True, 'Hands': True}
 
 
-def write_deck(prefix, title, entries, counts, hidden, thumb_png, png=False):
+def write_deck(prefix, title, entries, counts, hidden, thumb_png):
     """entries: unique (card, face, back); counts: copies of each entry in the deck."""
     custom, contained, ids = {}, [], []
     for n, start in enumerate(range(0, len(entries), PER_SHEET), 1):
@@ -104,11 +105,6 @@ def write_deck(prefix, title, entries, counts, hidden, thumb_png, png=False):
         fname, bname = f'{prefix}_Faces_{n}.jpg', f'{prefix}_Backs_{n}.jpg'
         faces.save(os.path.join(OUT, fname), quality=92, optimize=True)
         backs.save(os.path.join(OUT, bname), quality=92, optimize=True)
-        if png:
-            # lossless copies for importing by hand; the name carries the numbers TTS asks for
-            grid = f'{cols}x{rows}, {len(chunk)} cards'
-            faces.save(os.path.join(OUT, f'{prefix} Faces {n} ({grid}).png'), optimize=True)
-            backs.save(os.path.join(OUT, f'{prefix} Backs {n} ({grid}).png'), optimize=True)
         sheet = {'FaceURL': RAW + urllib.parse.quote('tts ready cards/' + fname),
                  'BackURL': RAW + urllib.parse.quote('tts ready cards/' + bname),
                  'NumWidth': cols, 'NumHeight': rows,
@@ -141,6 +137,21 @@ def write_deck(prefix, title, entries, counts, hidden, thumb_png, png=False):
     print(f'{len(ids)} cards in "{name}.json"')
 
 
+def write_png_sheets(entries, hidden):
+    """Lossless sheets for importing by hand: every card once, then the starter versions.
+    The file name carries the numbers TTS asks for (width x height, number of cards)."""
+    import glob
+    for f in glob.glob(os.path.join(OUT, 'Awakened Faces *.png')) + glob.glob(os.path.join(OUT, 'Awakened Backs *.png')):
+        os.remove(f)
+    for n, start in enumerate(range(0, len(entries), PER_SHEET), 1):
+        chunk = entries[start:start + PER_SHEET]
+        faces, backs, cols, rows = build_sheet(chunk, hidden)
+        grid = f'{cols}x{rows}, {len(chunk)} cards'
+        faces.save(os.path.join(OUT, f'Awakened Faces {n} ({grid}).png'), optimize=True)
+        backs.save(os.path.join(OUT, f'Awakened Backs {n} ({grid}).png'), optimize=True)
+        print(f'PNG sheet {n}: {grid}')
+
+
 STARTER_DECK = [('Strike (Awakened)', 4), ('Defend (Awakened)', 4), ('Hymn', 1), ('Talon Rake', 1)]
 
 
@@ -152,12 +163,14 @@ def main():
     path = lambda *p: os.path.join(HERE, 'cards', *p)
     # every card once: the full card pool
     entries = [(c, path(render.slug(c) + '.png'), path('upgraded', render.slug(c) + '.png')) for c in cards]
-    write_deck('Awakened', 'Awakened Deck (all 89 cards)', entries, [1] * len(entries), hidden, entries[0][1], png=True)
+    write_deck('Awakened', 'Awakened Deck (all 89 cards)', entries, [1] * len(entries), hidden, entries[0][1])
     # the starting deck, using the grey-background starter versions
     st = [(by_name[n], path('starter', render.slug(by_name[n]) + '.png'),
            path('upgraded', render.slug(by_name[n]) + '.png')) for n, _ in STARTER_DECK]
     write_deck('Awakened_Starter', 'Awakened Starter Deck (4 Strike, 4 Defend, Hymn, Talon Rake)', st,
                [k for _, k in STARTER_DECK], hidden, st[0][1])
+    # PNG sheets: the 89 cards, then the 4 starter versions on the last sheet
+    write_png_sheets(entries + st, hidden)
 
 
 if __name__ == '__main__':
