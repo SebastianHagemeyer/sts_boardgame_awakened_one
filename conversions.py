@@ -90,9 +90,9 @@ CARDS = {
 "Caw": ("0[hit]\n*CAW!*", "1[hit]\n*CAW!*",
     ["Renamed CAW! and redesigned (designer's call): 0[hit] means only Strength deals damage",
      "VG Chant ramp (“Caw cards deal +3 damage this combat”) replaced by *CAW!*"]),
-"Chosen Verse": ("The next 2 times you play a non-Attack card this turn, draw 1 card and {b4}[block].",
+"Chosen Verse": ("The next 2 times you play a non-Attack card this turn, draw 1 card.",
                  "The next 2 times you play a non-Attack card this turn, draw 1 card and {b4}[block].",
-    ["Balance review 7: twice on both versions; the upgrade costs 0"]),
+    ["Balance review 8: cost 1 on both; the base only draws, the upgrade also gives 1[block]"]),
 "Dark Echo": ("*End of turn:*\n1 *Manaburn* to any row.", "*End of turn:*\n1 *Manaburn* to any row.",
     ["Balance review 4: Manaburn to a row instead of [aoe] 1[hit]", "Upgrade: cost 2 → 1 (same as VG)"]),
 "Darkness Falls": ("Whenever you draw a [daze], 2[block].", "Whenever you draw a [daze], 2[block].",
@@ -100,9 +100,9 @@ CARDS = {
 "Deathcoil": ("{m8} *Manaburn*.\nNext turn, lose [E].", "{m11:3} *Manaburn*.\nNext turn, lose [E]."),
 "Ensorcelate": ("{b10}[block]\nThe next Power card you play costs 0.", "{b13}[block]\nThe next Power card you play costs 0.",
     ["Balance review 4: says Power card, so a CAW! effect does not use up the discount"]),
-"Eventide": ("1[hit] 1[hit] 1[hit]\nEach [hit] can have a different target.\nPut a [daze] on top of your draw pile.",
-             "1[hit] 1[hit] 1[hit]\nEach [hit] can have a different target.",
-    ["Balance review 7: a third hit; the upgrade still removes the Dazed"]),
+"Eventide": ("1[hit] 1[hit] 1[hit]\nEach [hit] can have a different target.\nPut [daze][daze] on top of your draw pile.",
+             "1[hit] 1[hit] 1[hit]\nEach [hit] can have a different target.\nPut a [daze] on top of your draw pile.",
+    ["Balance review 8: two Dazed on top at base, one upgraded"]),
 "Extension": ("{d11}[hit]\nWhenever you play a Power, return this from your discard pile to your hand.",
               "{d14}[hit]\nWhenever you play a Power, return this from your discard pile to your hand."),
 "Feather Veil": ("{b10}[block]\n[daze][daze]", "{b13:2}[block]\n[daze]",
@@ -200,7 +200,7 @@ CARDS = {
             "*Once per combat:* When you would die, or at the end of combat: remove all debuffs, *Awaken* and heal {h11:2} HP instead.",
     ["Balance review: healing reduced by 1", "Balance review 4: once per combat"]),
 "Skyward": ("{b18}[block]\nDraw 1 card.\nCosts 1 less for each [str] you have.", "{b24}[block]\nDraw 1 card.\nCosts 1 less for each [str] you have.",
-    ["Balance review 7: cheaper per [str] instead of per Power played"]),
+    ["Balance review 7: cheaper per [str] instead of per Power played", "Balance review 8: cost 5 instead of 7"]),
 "Sludge Bomb": ("For every [daze] in your hand, apply 1 *Manaburn*.", "For every [daze] in your hand, apply 2 *Manaburn*.",
     ["Balance review 5: 1 less Manaburn per Dazed"]),
 "Spellbinder": ("*Start of turn:*\n*Conjure*.", "*Start of turn:*\n*Conjure*.", ["Upgrade: cost 1 → 0 (same as VG)"]),
@@ -225,8 +225,8 @@ CARDS = {
     ["Balance review 7: Exhausts", "Upgrade: cost 1 → 0, like Double Tap+"]),
 "Sign in Blood": ("Lose {h2} HP.\nDraw 3 cards.\n*Exhaust*.", "Lose {h2} HP.\nDraw 4 cards.\n*Exhaust*.",
     ["Balance review: Strength gain removed"]),
-"Spreading Spores": ("*Ethereal*.\n*Start of turn:*\n2 *Manaburn* to any enemy.", "*Ethereal*.\n*Start of turn:*\n3 *Manaburn* to any enemy.",
-    ["Balance review 2: Thorns and the self-copy removed; applies Manaburn at the start of each turn"]),
+"Spreading Spores": ("*Ethereal*.\n*Start of turn:*\n1 *Manaburn* to any enemy.", "*Ethereal*.\n*Start of turn:*\n2 *Manaburn* to any enemy.",
+    ["Balance review 2: Thorns and the self-copy removed; applies Manaburn at the start of each turn", "Balance review 8: 1 less Manaburn"]),
 "The Encyclopedia": ("The next 2 cards you play this turn cost 2 less.\n*Exhaust*.", "The next 3 cards you play this turn cost 2 less.\n*Exhaust*.",
     ["Balance review 4: reworked: no random cards, the next cards cost less"]),
 # ---------------- Spells ----------------
@@ -243,10 +243,10 @@ CARDS = {
 }
 
 # Wiki data fixes, and upgraded costs (VG cost changes plus board-game-style cost upgrades)
-BASE_COST_FIX = {"Aphotic Fount": "2", "Demon Glyph": "2", "Spellbinder": "2", "Crusher": "3", "Scour": "0"}
+BASE_COST_FIX = {"Aphotic Fount": "2", "Demon Glyph": "2", "Spellbinder": "2", "Crusher": "3", "Scour": "0", "Skyward": "5"}
 UPGRADED_COST = {"Dark Echo": "1", "Moonlit Vision": "1", "4th Dimension": "0", "Aphotic Fount": "1",
                  "Archmagus": "2", "Spellbinder": "1",
-                 "Darkness Falls": "0", "Storm Ruler": "0", "Demon Glyph": "1", "Scheme": "0", "Chosen Verse": "0"}
+                 "Darkness Falls": "0", "Storm Ruler": "0", "Demon Glyph": "1", "Scheme": "0"}
 
 KIND = {'d': 'damage', 'b': 'Block', 'h': 'HP', 'm': 'Manaburn', 't': 'Thorns',
         's': 'Strength', 'w': 'Weak', 'v': 'Vulnerable'}
